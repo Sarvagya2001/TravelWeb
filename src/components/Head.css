@@ -1,0 +1,29 @@
+/* src/components/Head.css */
+
+.top-bar {
+    background-color: #fff;
+    padding: 10px;
+    color: #060707;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+  }
+  
+  .contact-item {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  

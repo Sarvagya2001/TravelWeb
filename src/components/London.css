@@ -1,0 +1,66 @@
+
+.london {
+    padding: 20px;
+    margin: 50px;
+    position: relative;
+  }
+  
+  .top-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .connector-line-left,
+  .connector-line-right {
+    height: 2px;
+    width: 50px;
+    background-color: #000;
+  }
+  
+  .connector-line-left {
+    margin-right: 10px;
+  }
+  
+  .connector-line-right {
+    margin-left: 10px;
+  }
+  
+  .centered-text {
+    text-align: center;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .description {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .center-align {
+    text-align: center;
+  }
+  
+  .image-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .london-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .box {
+    text-align: center;
+  }
+  
+  .box-text {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  

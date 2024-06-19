@@ -1,0 +1,92 @@
+/* src/components/Blog.css */
+
+.blog {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .top-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .connector-line-left,
+  .connector-line-right {
+    height: 2px;
+    width: 50px;
+    background-color: #000;
+  }
+  
+  .connector-line-left {
+    margin-right: 10px;
+    margin-top: 5px; /* Move connector line below the text */
+  }
+  
+  .connector-line-right {
+    margin-left: 10px;
+    margin-top: 5px; /* Move connector line below the text */
+  }
+  
+  .centered-text {
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    margin: 0; /* Remove default margin for better centering */
+  }
+  
+  .blog-paragraph {
+    margin-top: 20px;
+    text-align: center; /* Center align the blog paragraph */
+  }
+  
+  .images-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    justify-content: space-around; /* Equal spacing between images */
+    align-items: center; /* Align items in the center vertically */
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    flex: 0 0 48%; /* Flex basis for equal width, adjust as needed */
+    position: relative;
+    margin-bottom: 20px; /* Add margin between images */
+  }
+  
+  .top-left-text {
+    position: absolute;
+    top: 10px;
+    background-color: #001f3f; /* Dark blue background */
+    color: #fff;
+    padding: 5px;
+  }
+  
+  .blog-image {
+    width: 100%; /* Make images fill the container */
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .bottom-text {
+    display: flex;
+    justify-content: space-between;
+    color: #4894d7; /* Dark gray text color */
+  }
+  
+  .bottom-text p {
+    margin: 0; /* Remove default margin for better centering */
+  }
+  
+  .bottom-paragraph {
+    margin-top: 20px;
+    text-align: justify;
+  }
+  
+  .bold-line {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

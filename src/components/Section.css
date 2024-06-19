@@ -1,0 +1,79 @@
+.section {
+    background-image: url('../images/section-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section-text {
+    font-weight: 900;
+    color: #71c9eb;
+    font-size: 50PX;
+    margin-bottom: 20px;
+  }
+  .section-text-2 {
+    font-weight: 900;
+    color: #f2f6f8;
+    font-size: 50PX;
+    margin-bottom: 20px;
+  }
+  
+  .section-button {
+    background-color: #ff6600; 
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    width: calc(30% - 10px); 
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input,
+  .form-container select {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
